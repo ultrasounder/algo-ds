@@ -12,4 +12,4 @@ def is_balanced(parentheses):
                 return False
     return len(stack) == 0
 
-is_balanced('((()))')
+print(is_balanced('((()))'))

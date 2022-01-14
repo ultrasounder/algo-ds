@@ -17,4 +17,5 @@ def is_balanced(symbols):
         if s!= PAIRINGS[expected_opening_symbol]:
             return False
     return len(stack) == 0
+print(is_balanced('{{([][])}()}'))
             
